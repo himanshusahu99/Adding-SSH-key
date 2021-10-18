@@ -1,0 +1,21 @@
+ssh-keygen -t ed25519 -C "your_email_with_github@example.com"
+      it will show    
+             Enter a file in which to save the key (/c/Users/you/.ssh/id_algorithm):[Press enter]                      ###press enter
+             
+              Enter passphrase (empty for no passphrase): [Type a passphrase]     #####enter your passphrase  (remmber your passphrase)
+              Enter same passphrase again: [Type passphrase again]                ##### reenter you passphrase
+             
+             
+then go to .ssh folder in your c/user/lenovo/.ssh 
+        copy content of ".pub" file
+
+         go to github-> setting -> ssh and gpg keys 
+         add new ssh
+              add you title (kuchh bhi)
+              paste you ssh key(from .pub file) in key textarea
+              click add ssh
+              
+              
+              
+ DONE!!!!!
+    
